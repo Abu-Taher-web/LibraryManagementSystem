@@ -91,6 +91,11 @@
                                                                         <div class="col-12">
                                                                             Description -
                                                                             <asp:Label ID="Label12" runat="server" Font-Bold="True" Font-Italic="True" Font-Size="Smaller" Text='<%# Eval("book_description") %>'></asp:Label>
+                                                                        </div>    
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="col-12">
+                                                                           <asp:LinkButton ID="LinkButton1" runat="server">Add to Cart</asp:LinkButton>
                                                                         </div>
                                                                     </div>
                                                                 </div>

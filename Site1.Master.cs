@@ -117,6 +117,11 @@ namespace LibraryManagementSystem
             Response.Redirect("usersignup.aspx");
         }
 
+        protected void cart_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("UserCart.aspx");
+        }
+
         //logout button
         protected void LinkButton3_Click(object sender, EventArgs e)
         {
